@@ -1,2 +1,2 @@
-compose: docker-compose.yml
-application_template: app-config.yaml
+application_template: .release/application_template.yaml
+environment_variables: .release/environment_variables.yaml
