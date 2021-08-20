@@ -82,7 +82,7 @@ services:
 workflows:
 - name: setup
   parallelize:
-  - step: data
+  - step: data-layer
     tasks:
     - services.db
     - services.redis
