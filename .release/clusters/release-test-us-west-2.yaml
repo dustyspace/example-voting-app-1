@@ -10,4 +10,5 @@ charts:
   values: values.yaml
   name_template: "argo-workflows" 
 context: release-test-us-west-2
-namespace: argo-wf-test
+tracking_branch: fred
+namespace: kube-system

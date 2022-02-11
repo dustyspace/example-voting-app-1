@@ -9,3 +9,4 @@ charts:
   directory: helm/argo
   values: values.yaml
   name_template: "argo-workflows" 
+context: default
