@@ -1,5 +1,5 @@
 ---
-app: example-voting-app
+app: example-voting-app-1
 auto_deploy: true
 context: release-handsup-us-east-1
 domain: app.releaseapp.gethandsup.com
