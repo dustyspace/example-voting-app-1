@@ -1,19 +1,19 @@
 ---
 app: example-voting-app-1
 auto_deploy: true
-context: release-handsup-us-east-1
-domain: app.releaseapp.gethandsup.com
+context: release-customer-us-west-2
+domain: rls.sh
 mode: development
 repo_name: dustyspace/example-voting-app
 hostnames:
-- vote: vote-${env_id}-${domain}
-- result: result-${env_id}-${domain}
+- vote: vote-${env_id}.${domain}
+- result: result-${env_id}.${domain}
 environment_templates:
 - name: ephemeral
 - name: permanent
 resources:
   cpu:
-    limits: 1000m
+    limits: 1500m
     requests: 100m
   memory:
     limits: 2Gi
